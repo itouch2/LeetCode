@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		CB6053621ED54C3A0068B464 /* LeetCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6053611ED54C3A0068B464 /* LeetCodeTests.swift */; };
+		CB6053681ED54C910068B464 /* MissingNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6053671ED54C910068B464 /* MissingNumber.swift */; };
+		CB60536A1ED54D3D0068B464 /* MissingNumberTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6053691ED54D3D0068B464 /* MissingNumberTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -15,6 +17,8 @@
 		CB60535F1ED54C3A0068B464 /* LeetCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeetCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB6053611ED54C3A0068B464 /* LeetCodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetCodeTests.swift; sourceTree = "<group>"; };
 		CB6053631ED54C3A0068B464 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB6053671ED54C910068B464 /* MissingNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MissingNumber.swift; sourceTree = "<group>"; };
+		CB6053691ED54D3D0068B464 /* MissingNumberTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MissingNumberTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				CB6053541ED54BFD0068B464 /* main.swift */,
+				CB6053671ED54C910068B464 /* MissingNumber.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -57,6 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				CB6053611ED54C3A0068B464 /* LeetCodeTests.swift */,
+				CB6053691ED54D3D0068B464 /* MissingNumberTest.swift */,
 				CB6053631ED54C3A0068B464 /* Info.plist */,
 			);
 			path = LeetCodeTests;
@@ -131,7 +137,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB60536A1ED54D3D0068B464 /* MissingNumberTest.swift in Sources */,
 				CB6053621ED54C3A0068B464 /* LeetCodeTests.swift in Sources */,
+				CB6053681ED54C910068B464 /* MissingNumber.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
