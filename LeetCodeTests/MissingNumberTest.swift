@@ -11,8 +11,9 @@ import XCTest
 class MissingNumberTest: XCTestCase {
 
     func testMissingNumber() {
-        XCTAssertEqual(MissingNumber.missingNumber([0, 1, 3]), 2)
-        XCTAssertEqual(MissingNumber.missingNumber([0, 1, 2, 3, 5, 6, 7]), 4)
+        let missingNumber = MissingNumber()
+        XCTAssertEqual(missingNumber.missingNumber([0, 1, 3]), 2)
+        XCTAssertEqual(missingNumber.missingNumber([0, 1, 2, 3, 5, 6, 7]), 4)
     }
 
 }

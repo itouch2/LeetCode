@@ -9,7 +9,7 @@
 import Cocoa
 
 class MissingNumber: NSObject {
-    static func missingNumber(_ nums: [Int]) -> Int {
+    func missingNumber(_ nums: [Int]) -> Int {
         var sum: Int = 0
         for num in nums {
             sum += num
