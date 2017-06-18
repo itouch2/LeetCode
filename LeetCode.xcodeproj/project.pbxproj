@@ -14,6 +14,8 @@
 		CB6053811ED5573D0068B464 /* H-Index.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6053801ED5573D0068B464 /* H-Index.swift */; };
 		CB6053831ED58DD30068B464 /* H-IndexTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6053821ED58DD30068B464 /* H-IndexTest.swift */; };
 		CB6053861ED689350068B464 /* FindTheDuplicateNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6053851ED689350068B464 /* FindTheDuplicateNumber.swift */; };
+		CBC023851EF615A000188AED /* IntegertoRoman.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC023841EF615A000188AED /* IntegertoRoman.swift */; };
+		CBC023871EF62CAC00188AED /* IntegerToRomanTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC023861EF62CAC00188AED /* IntegerToRomanTest.swift */; };
 		CBE3BEFD1EE94F6D0040565B /* HappyNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE3BEFC1EE94F6D0040565B /* HappyNumber.swift */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +29,8 @@
 		CB6053801ED5573D0068B464 /* H-Index.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "H-Index.swift"; sourceTree = "<group>"; };
 		CB6053821ED58DD30068B464 /* H-IndexTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "H-IndexTest.swift"; sourceTree = "<group>"; };
 		CB6053851ED689350068B464 /* FindTheDuplicateNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindTheDuplicateNumber.swift; sourceTree = "<group>"; };
+		CBC023841EF615A000188AED /* IntegertoRoman.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntegertoRoman.swift; sourceTree = "<group>"; };
+		CBC023861EF62CAC00188AED /* IntegerToRomanTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntegerToRomanTest.swift; sourceTree = "<group>"; };
 		CBE3BEFC1EE94F6D0040565B /* HappyNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HappyNumber.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -65,6 +69,7 @@
 				CB6053801ED5573D0068B464 /* H-Index.swift */,
 				CB6053851ED689350068B464 /* FindTheDuplicateNumber.swift */,
 				CBE3BEFC1EE94F6D0040565B /* HappyNumber.swift */,
+				CBC023841EF615A000188AED /* IntegertoRoman.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -76,6 +81,7 @@
 				CB6053821ED58DD30068B464 /* H-IndexTest.swift */,
 				CB436CDE1EE6EEDD003FA289 /* FindTheDuplicateNumberTest.swift */,
 				CB1852231EEA34A0001595B8 /* HappyNumberTest.swift */,
+				CBC023861EF62CAC00188AED /* IntegerToRomanTest.swift */,
 				CB6053631ED54C3A0068B464 /* Info.plist */,
 			);
 			path = LeetCodeTests;
@@ -153,10 +159,12 @@
 				CB6053861ED689350068B464 /* FindTheDuplicateNumber.swift in Sources */,
 				CB6053811ED5573D0068B464 /* H-Index.swift in Sources */,
 				CB6053831ED58DD30068B464 /* H-IndexTest.swift in Sources */,
+				CBC023871EF62CAC00188AED /* IntegerToRomanTest.swift in Sources */,
 				CB1852241EEA34A0001595B8 /* HappyNumberTest.swift in Sources */,
 				CBE3BEFD1EE94F6D0040565B /* HappyNumber.swift in Sources */,
 				CB60536A1ED54D3D0068B464 /* MissingNumberTest.swift in Sources */,
 				CB436CDF1EE6EEDD003FA289 /* FindTheDuplicateNumberTest.swift in Sources */,
+				CBC023851EF615A000188AED /* IntegertoRoman.swift in Sources */,
 				CB6053681ED54C910068B464 /* MissingNumber.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
