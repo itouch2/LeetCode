@@ -21,6 +21,8 @@
 		CB643D491F499E9F0017E543 /* BestTimetoBuyandSellStockIIITest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB643D481F499E9F0017E543 /* BestTimetoBuyandSellStockIIITest.swift */; };
 		CB643D4B1F49AF3F0017E543 /* BestTimetoBuyandSellStock.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB643D4A1F49AF3F0017E543 /* BestTimetoBuyandSellStock.swift */; };
 		CB643D4D1F49AFCA0017E543 /* BestTimetoBuyandSellStockTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB643D4C1F49AFCA0017E543 /* BestTimetoBuyandSellStockTest.swift */; };
+		CB643D4F1F49B1280017E543 /* BestTimetoBuyandSellStockII.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB643D4E1F49B1280017E543 /* BestTimetoBuyandSellStockII.swift */; };
+		CB643D511F49B1C50017E543 /* BestTimetoBuyandSellStockIITest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB643D501F49B1C50017E543 /* BestTimetoBuyandSellStockIITest.swift */; };
 		CBC023851EF615A000188AED /* IntegertoRoman.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC023841EF615A000188AED /* IntegertoRoman.swift */; };
 		CBC023871EF62CAC00188AED /* IntegerToRomanTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC023861EF62CAC00188AED /* IntegerToRomanTest.swift */; };
 		CBC023891EF62FD800188AED /* SpiralMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC023881EF62FD800188AED /* SpiralMatrix.swift */; };
@@ -44,6 +46,8 @@
 		CB643D481F499E9F0017E543 /* BestTimetoBuyandSellStockIIITest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BestTimetoBuyandSellStockIIITest.swift; sourceTree = "<group>"; };
 		CB643D4A1F49AF3F0017E543 /* BestTimetoBuyandSellStock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BestTimetoBuyandSellStock.swift; sourceTree = "<group>"; };
 		CB643D4C1F49AFCA0017E543 /* BestTimetoBuyandSellStockTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BestTimetoBuyandSellStockTest.swift; sourceTree = "<group>"; };
+		CB643D4E1F49B1280017E543 /* BestTimetoBuyandSellStockII.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BestTimetoBuyandSellStockII.swift; sourceTree = "<group>"; };
+		CB643D501F49B1C50017E543 /* BestTimetoBuyandSellStockIITest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BestTimetoBuyandSellStockIITest.swift; sourceTree = "<group>"; };
 		CBC023841EF615A000188AED /* IntegertoRoman.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntegertoRoman.swift; sourceTree = "<group>"; };
 		CBC023861EF62CAC00188AED /* IntegerToRomanTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntegerToRomanTest.swift; sourceTree = "<group>"; };
 		CBC023881EF62FD800188AED /* SpiralMatrix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpiralMatrix.swift; sourceTree = "<group>"; };
@@ -89,6 +93,7 @@
 				CBC023881EF62FD800188AED /* SpiralMatrix.swift */,
 				CB5AEF3C1F02529C0081C628 /* SpiralMatrixII.swift */,
 				CB643D4A1F49AF3F0017E543 /* BestTimetoBuyandSellStock.swift */,
+				CB643D4E1F49B1280017E543 /* BestTimetoBuyandSellStockII.swift */,
 				CB643D461F499B4B0017E543 /* BestTimetoBuyandSellStockIII.swift */,
 			);
 			path = LeetCode;
@@ -105,6 +110,7 @@
 				CB5AEF3A1F0203AB0081C628 /* SpiralMatrixTest.swift */,
 				CB643D441F4986AC0017E543 /* SprialMatrixIITest.swift */,
 				CB643D4C1F49AFCA0017E543 /* BestTimetoBuyandSellStockTest.swift */,
+				CB643D501F49B1C50017E543 /* BestTimetoBuyandSellStockIITest.swift */,
 				CB643D481F499E9F0017E543 /* BestTimetoBuyandSellStockIIITest.swift */,
 				CB6053631ED54C3A0068B464 /* Info.plist */,
 			);
@@ -183,6 +189,7 @@
 				CB6053861ED689350068B464 /* FindTheDuplicateNumber.swift in Sources */,
 				CB643D4D1F49AFCA0017E543 /* BestTimetoBuyandSellStockTest.swift in Sources */,
 				CB6053811ED5573D0068B464 /* H-Index.swift in Sources */,
+				CB643D4F1F49B1280017E543 /* BestTimetoBuyandSellStockII.swift in Sources */,
 				CBC023891EF62FD800188AED /* SpiralMatrix.swift in Sources */,
 				CB643D491F499E9F0017E543 /* BestTimetoBuyandSellStockIIITest.swift in Sources */,
 				CB6053831ED58DD30068B464 /* H-IndexTest.swift in Sources */,
@@ -196,6 +203,7 @@
 				CB5AEF3B1F0203AB0081C628 /* SpiralMatrixTest.swift in Sources */,
 				CB643D4B1F49AF3F0017E543 /* BestTimetoBuyandSellStock.swift in Sources */,
 				CB643D471F499B4B0017E543 /* BestTimetoBuyandSellStockIII.swift in Sources */,
+				CB643D511F49B1C50017E543 /* BestTimetoBuyandSellStockIITest.swift in Sources */,
 				CBC023851EF615A000188AED /* IntegertoRoman.swift in Sources */,
 				CB6053681ED54C910068B464 /* MissingNumber.swift in Sources */,
 			);
