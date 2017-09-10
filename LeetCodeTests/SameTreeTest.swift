@@ -20,10 +20,10 @@ class SameTreeTest: XCTestCase {
         tree2.left = TreeNode(3)
         tree2.right = TreeNode(4)
         
-//        XCTAssertTrue(sameTree.isSameTree(tree1, tree2))
+        XCTAssertTrue(sameTree.isSameTree(tree1, tree2))
         
         tree2.right = nil
-//        XCTAssertFalse(sameTree.isSameTree(tree1, tree2))
+        XCTAssertFalse(sameTree.isSameTree(tree1, tree2))
         
         XCTAssertTrue(sameTree.isSameTree(nil, nil))
     }
