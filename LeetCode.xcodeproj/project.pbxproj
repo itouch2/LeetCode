@@ -32,6 +32,8 @@
 		CBDF30471F6510CB000C328C /* SameTreeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDF30461F6510CB000C328C /* SameTreeTest.swift */; };
 		CBDF304B1F651B9A000C328C /* ValidPalindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDF304A1F651B9A000C328C /* ValidPalindrome.swift */; };
 		CBDF304D1F65238A000C328C /* ValidPalindromeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDF304C1F65238A000C328C /* ValidPalindromeTest.swift */; };
+		CBDF304F1F653A01000C328C /* UglyNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDF304E1F653A01000C328C /* UglyNumber.swift */; };
+		CBDF30511F653BF2000C328C /* UglyNumberTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDF30501F653BF2000C328C /* UglyNumberTest.swift */; };
 		CBE3BEFD1EE94F6D0040565B /* HappyNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE3BEFC1EE94F6D0040565B /* HappyNumber.swift */; };
 /* End PBXBuildFile section */
 
@@ -63,6 +65,8 @@
 		CBDF30461F6510CB000C328C /* SameTreeTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SameTreeTest.swift; sourceTree = "<group>"; };
 		CBDF304A1F651B9A000C328C /* ValidPalindrome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidPalindrome.swift; sourceTree = "<group>"; };
 		CBDF304C1F65238A000C328C /* ValidPalindromeTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidPalindromeTest.swift; sourceTree = "<group>"; };
+		CBDF304E1F653A01000C328C /* UglyNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UglyNumber.swift; sourceTree = "<group>"; };
+		CBDF30501F653BF2000C328C /* UglyNumberTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UglyNumberTest.swift; sourceTree = "<group>"; };
 		CBE3BEFC1EE94F6D0040565B /* HappyNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HappyNumber.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -110,6 +114,7 @@
 				CBDF30401F650787000C328C /* MergeSortedArray.swift */,
 				CBDF30441F650FBD000C328C /* SameTree.swift */,
 				CBDF304A1F651B9A000C328C /* ValidPalindrome.swift */,
+				CBDF304E1F653A01000C328C /* UglyNumber.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -130,6 +135,7 @@
 				CBDF30421F650B45000C328C /* MergeSortedArrayTest.swift */,
 				CBDF30461F6510CB000C328C /* SameTreeTest.swift */,
 				CBDF304C1F65238A000C328C /* ValidPalindromeTest.swift */,
+				CBDF30501F653BF2000C328C /* UglyNumberTest.swift */,
 				CB6053631ED54C3A0068B464 /* Info.plist */,
 			);
 			path = LeetCodeTests;
@@ -205,6 +211,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB6053861ED689350068B464 /* FindTheDuplicateNumber.swift in Sources */,
+				CBDF30511F653BF2000C328C /* UglyNumberTest.swift in Sources */,
 				CB643D4D1F49AFCA0017E543 /* BestTimetoBuyandSellStockTest.swift in Sources */,
 				CB6053811ED5573D0068B464 /* H-Index.swift in Sources */,
 				CB643D4F1F49B1280017E543 /* BestTimetoBuyandSellStockII.swift in Sources */,
@@ -225,6 +232,7 @@
 				CB643D4B1F49AF3F0017E543 /* BestTimetoBuyandSellStock.swift in Sources */,
 				CBDF30411F650787000C328C /* MergeSortedArray.swift in Sources */,
 				CBDF30471F6510CB000C328C /* SameTreeTest.swift in Sources */,
+				CBDF304F1F653A01000C328C /* UglyNumber.swift in Sources */,
 				CB643D471F499B4B0017E543 /* BestTimetoBuyandSellStockIII.swift in Sources */,
 				CB643D511F49B1C50017E543 /* BestTimetoBuyandSellStockIITest.swift in Sources */,
 				CBDF304B1F651B9A000C328C /* ValidPalindrome.swift in Sources */,
