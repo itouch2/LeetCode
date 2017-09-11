@@ -38,6 +38,8 @@
 		CBDF30551F66DA78000C328C /* UglyNumberIITest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDF30541F66DA78000C328C /* UglyNumberIITest.swift */; };
 		CBDF30571F66E0E9000C328C /* MoveZeros.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDF30561F66E0E9000C328C /* MoveZeros.swift */; };
 		CBDF30591F66E2D7000C328C /* MoveZerosTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDF30581F66E2D7000C328C /* MoveZerosTest.swift */; };
+		CBDF305B1F66E5CA000C328C /* ClimbingStairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDF305A1F66E5CA000C328C /* ClimbingStairs.swift */; };
+		CBDF305D1F66E62C000C328C /* ClimbingStairsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDF305C1F66E62C000C328C /* ClimbingStairsTest.swift */; };
 		CBE3BEFD1EE94F6D0040565B /* HappyNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE3BEFC1EE94F6D0040565B /* HappyNumber.swift */; };
 /* End PBXBuildFile section */
 
@@ -75,6 +77,8 @@
 		CBDF30541F66DA78000C328C /* UglyNumberIITest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UglyNumberIITest.swift; sourceTree = "<group>"; };
 		CBDF30561F66E0E9000C328C /* MoveZeros.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoveZeros.swift; sourceTree = "<group>"; };
 		CBDF30581F66E2D7000C328C /* MoveZerosTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoveZerosTest.swift; sourceTree = "<group>"; };
+		CBDF305A1F66E5CA000C328C /* ClimbingStairs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClimbingStairs.swift; sourceTree = "<group>"; };
+		CBDF305C1F66E62C000C328C /* ClimbingStairsTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClimbingStairsTest.swift; sourceTree = "<group>"; };
 		CBE3BEFC1EE94F6D0040565B /* HappyNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HappyNumber.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -125,6 +129,7 @@
 				CBDF304E1F653A01000C328C /* UglyNumber.swift */,
 				CBDF30521F654B19000C328C /* UglyNumberII.swift */,
 				CBDF30561F66E0E9000C328C /* MoveZeros.swift */,
+				CBDF305A1F66E5CA000C328C /* ClimbingStairs.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -148,6 +153,7 @@
 				CBDF30501F653BF2000C328C /* UglyNumberTest.swift */,
 				CBDF30541F66DA78000C328C /* UglyNumberIITest.swift */,
 				CBDF30581F66E2D7000C328C /* MoveZerosTest.swift */,
+				CBDF305C1F66E62C000C328C /* ClimbingStairsTest.swift */,
 				CB6053631ED54C3A0068B464 /* Info.plist */,
 			);
 			path = LeetCodeTests;
@@ -227,6 +233,7 @@
 				CB643D4D1F49AFCA0017E543 /* BestTimetoBuyandSellStockTest.swift in Sources */,
 				CB6053811ED5573D0068B464 /* H-Index.swift in Sources */,
 				CB643D4F1F49B1280017E543 /* BestTimetoBuyandSellStockII.swift in Sources */,
+				CBDF305B1F66E5CA000C328C /* ClimbingStairs.swift in Sources */,
 				CBC023891EF62FD800188AED /* SpiralMatrix.swift in Sources */,
 				CB643D491F499E9F0017E543 /* BestTimetoBuyandSellStockIIITest.swift in Sources */,
 				CB6053831ED58DD30068B464 /* H-IndexTest.swift in Sources */,
@@ -238,6 +245,7 @@
 				CB60536A1ED54D3D0068B464 /* MissingNumberTest.swift in Sources */,
 				CB436CDF1EE6EEDD003FA289 /* FindTheDuplicateNumberTest.swift in Sources */,
 				CB643D451F4986AC0017E543 /* SprialMatrixIITest.swift in Sources */,
+				CBDF305D1F66E62C000C328C /* ClimbingStairsTest.swift in Sources */,
 				CBDF30431F650B45000C328C /* MergeSortedArrayTest.swift in Sources */,
 				CB5AEF3D1F02529C0081C628 /* SpiralMatrixII.swift in Sources */,
 				CBDF30531F654B19000C328C /* UglyNumberII.swift in Sources */,
