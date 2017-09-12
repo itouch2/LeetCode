@@ -26,6 +26,8 @@
 		CB9E7EC81F681F150040AEFA /* RemoveLinkedListElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9E7EC71F681F150040AEFA /* RemoveLinkedListElements.swift */; };
 		CB9E7ECA1F681F6F0040AEFA /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9E7EC91F681F6F0040AEFA /* ListNode.swift */; };
 		CB9E7ECC1F68324A0040AEFA /* RemoveLinkedListElementsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9E7ECB1F68324A0040AEFA /* RemoveLinkedListElementsTest.swift */; };
+		CB9E7ECE1F68374A0040AEFA /* ValidAnagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9E7ECD1F68374A0040AEFA /* ValidAnagram.swift */; };
+		CB9E7ED01F6839A60040AEFA /* ValidAnagramTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9E7ECF1F6839A60040AEFA /* ValidAnagramTest.swift */; };
 		CBC023851EF615A000188AED /* IntegertoRoman.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC023841EF615A000188AED /* IntegertoRoman.swift */; };
 		CBC023871EF62CAC00188AED /* IntegerToRomanTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC023861EF62CAC00188AED /* IntegerToRomanTest.swift */; };
 		CBC023891EF62FD800188AED /* SpiralMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC023881EF62FD800188AED /* SpiralMatrix.swift */; };
@@ -72,6 +74,8 @@
 		CB9E7EC71F681F150040AEFA /* RemoveLinkedListElements.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoveLinkedListElements.swift; sourceTree = "<group>"; };
 		CB9E7EC91F681F6F0040AEFA /* ListNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
 		CB9E7ECB1F68324A0040AEFA /* RemoveLinkedListElementsTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoveLinkedListElementsTest.swift; sourceTree = "<group>"; };
+		CB9E7ECD1F68374A0040AEFA /* ValidAnagram.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidAnagram.swift; sourceTree = "<group>"; };
+		CB9E7ECF1F6839A60040AEFA /* ValidAnagramTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidAnagramTest.swift; sourceTree = "<group>"; };
 		CBC023841EF615A000188AED /* IntegertoRoman.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntegertoRoman.swift; sourceTree = "<group>"; };
 		CBC023861EF62CAC00188AED /* IntegerToRomanTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntegerToRomanTest.swift; sourceTree = "<group>"; };
 		CBC023881EF62FD800188AED /* SpiralMatrix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpiralMatrix.swift; sourceTree = "<group>"; };
@@ -147,6 +151,7 @@
 				CBDF305E1F66EA32000C328C /* SearchinRotatedSortedArray.swift */,
 				CBDF30621F67B845000C328C /* PalindromeLinkedList.swift */,
 				CB9E7EC71F681F150040AEFA /* RemoveLinkedListElements.swift */,
+				CB9E7ECD1F68374A0040AEFA /* ValidAnagram.swift */,
 				CB9E7EC91F681F6F0040AEFA /* ListNode.swift */,
 			);
 			path = LeetCode;
@@ -175,6 +180,7 @@
 				CBDF30601F67B481000C328C /* SearchinRotatedSortedArrayTest.swift */,
 				CBDF30641F6809EE000C328C /* PalindromeLinkedListTest.swift */,
 				CB9E7ECB1F68324A0040AEFA /* RemoveLinkedListElementsTest.swift */,
+				CB9E7ECF1F6839A60040AEFA /* ValidAnagramTest.swift */,
 				CB6053631ED54C3A0068B464 /* Info.plist */,
 			);
 			path = LeetCodeTests;
@@ -251,6 +257,7 @@
 			files = (
 				CB6053861ED689350068B464 /* FindTheDuplicateNumber.swift in Sources */,
 				CBDF30511F653BF2000C328C /* UglyNumberTest.swift in Sources */,
+				CB9E7ECE1F68374A0040AEFA /* ValidAnagram.swift in Sources */,
 				CB643D4D1F49AFCA0017E543 /* BestTimetoBuyandSellStockTest.swift in Sources */,
 				CBDF30651F6809EE000C328C /* PalindromeLinkedListTest.swift in Sources */,
 				CB6053811ED5573D0068B464 /* H-Index.swift in Sources */,
@@ -266,6 +273,7 @@
 				CBDF30551F66DA78000C328C /* UglyNumberIITest.swift in Sources */,
 				CBDF30451F650FBD000C328C /* SameTree.swift in Sources */,
 				CB1852241EEA34A0001595B8 /* HappyNumberTest.swift in Sources */,
+				CB9E7ED01F6839A60040AEFA /* ValidAnagramTest.swift in Sources */,
 				CBE3BEFD1EE94F6D0040565B /* HappyNumber.swift in Sources */,
 				CB60536A1ED54D3D0068B464 /* MissingNumberTest.swift in Sources */,
 				CBDF30611F67B481000C328C /* SearchinRotatedSortedArrayTest.swift in Sources */,
