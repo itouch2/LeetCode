@@ -15,15 +15,6 @@ import Cocoa
  Could you do it in O(n) time and O(1) space?
  */
 
-public class ListNode {
-    public var val: Int
-    public var next: ListNode?
-    public init(_ val: Int) {
-        self.val = val
-        self.next = nil
-    }
-}
-
 class PalindromeLinkedList: NSObject {
     func isPalindrome(_ head: ListNode?) -> Bool {
         

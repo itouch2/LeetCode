@@ -23,6 +23,9 @@
 		CB643D4D1F49AFCA0017E543 /* BestTimetoBuyandSellStockTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB643D4C1F49AFCA0017E543 /* BestTimetoBuyandSellStockTest.swift */; };
 		CB643D4F1F49B1280017E543 /* BestTimetoBuyandSellStockII.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB643D4E1F49B1280017E543 /* BestTimetoBuyandSellStockII.swift */; };
 		CB643D511F49B1C50017E543 /* BestTimetoBuyandSellStockIITest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB643D501F49B1C50017E543 /* BestTimetoBuyandSellStockIITest.swift */; };
+		CB9E7EC81F681F150040AEFA /* RemoveLinkedListElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9E7EC71F681F150040AEFA /* RemoveLinkedListElements.swift */; };
+		CB9E7ECA1F681F6F0040AEFA /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9E7EC91F681F6F0040AEFA /* ListNode.swift */; };
+		CB9E7ECC1F68324A0040AEFA /* RemoveLinkedListElementsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9E7ECB1F68324A0040AEFA /* RemoveLinkedListElementsTest.swift */; };
 		CBC023851EF615A000188AED /* IntegertoRoman.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC023841EF615A000188AED /* IntegertoRoman.swift */; };
 		CBC023871EF62CAC00188AED /* IntegerToRomanTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC023861EF62CAC00188AED /* IntegerToRomanTest.swift */; };
 		CBC023891EF62FD800188AED /* SpiralMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC023881EF62FD800188AED /* SpiralMatrix.swift */; };
@@ -66,6 +69,9 @@
 		CB643D4C1F49AFCA0017E543 /* BestTimetoBuyandSellStockTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BestTimetoBuyandSellStockTest.swift; sourceTree = "<group>"; };
 		CB643D4E1F49B1280017E543 /* BestTimetoBuyandSellStockII.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BestTimetoBuyandSellStockII.swift; sourceTree = "<group>"; };
 		CB643D501F49B1C50017E543 /* BestTimetoBuyandSellStockIITest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BestTimetoBuyandSellStockIITest.swift; sourceTree = "<group>"; };
+		CB9E7EC71F681F150040AEFA /* RemoveLinkedListElements.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoveLinkedListElements.swift; sourceTree = "<group>"; };
+		CB9E7EC91F681F6F0040AEFA /* ListNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
+		CB9E7ECB1F68324A0040AEFA /* RemoveLinkedListElementsTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoveLinkedListElementsTest.swift; sourceTree = "<group>"; };
 		CBC023841EF615A000188AED /* IntegertoRoman.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntegertoRoman.swift; sourceTree = "<group>"; };
 		CBC023861EF62CAC00188AED /* IntegerToRomanTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntegerToRomanTest.swift; sourceTree = "<group>"; };
 		CBC023881EF62FD800188AED /* SpiralMatrix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpiralMatrix.swift; sourceTree = "<group>"; };
@@ -140,6 +146,8 @@
 				CBDF305A1F66E5CA000C328C /* ClimbingStairs.swift */,
 				CBDF305E1F66EA32000C328C /* SearchinRotatedSortedArray.swift */,
 				CBDF30621F67B845000C328C /* PalindromeLinkedList.swift */,
+				CB9E7EC71F681F150040AEFA /* RemoveLinkedListElements.swift */,
+				CB9E7EC91F681F6F0040AEFA /* ListNode.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -166,6 +174,7 @@
 				CBDF305C1F66E62C000C328C /* ClimbingStairsTest.swift */,
 				CBDF30601F67B481000C328C /* SearchinRotatedSortedArrayTest.swift */,
 				CBDF30641F6809EE000C328C /* PalindromeLinkedListTest.swift */,
+				CB9E7ECB1F68324A0040AEFA /* RemoveLinkedListElementsTest.swift */,
 				CB6053631ED54C3A0068B464 /* Info.plist */,
 			);
 			path = LeetCodeTests;
@@ -250,6 +259,8 @@
 				CBDF305B1F66E5CA000C328C /* ClimbingStairs.swift in Sources */,
 				CBC023891EF62FD800188AED /* SpiralMatrix.swift in Sources */,
 				CB643D491F499E9F0017E543 /* BestTimetoBuyandSellStockIIITest.swift in Sources */,
+				CB9E7EC81F681F150040AEFA /* RemoveLinkedListElements.swift in Sources */,
+				CB9E7ECA1F681F6F0040AEFA /* ListNode.swift in Sources */,
 				CB6053831ED58DD30068B464 /* H-IndexTest.swift in Sources */,
 				CBC023871EF62CAC00188AED /* IntegerToRomanTest.swift in Sources */,
 				CBDF30551F66DA78000C328C /* UglyNumberIITest.swift in Sources */,
@@ -271,6 +282,7 @@
 				CB643D4B1F49AF3F0017E543 /* BestTimetoBuyandSellStock.swift in Sources */,
 				CBDF30411F650787000C328C /* MergeSortedArray.swift in Sources */,
 				CBDF30591F66E2D7000C328C /* MoveZerosTest.swift in Sources */,
+				CB9E7ECC1F68324A0040AEFA /* RemoveLinkedListElementsTest.swift in Sources */,
 				CBDF30471F6510CB000C328C /* SameTreeTest.swift in Sources */,
 				CBDF304F1F653A01000C328C /* UglyNumber.swift in Sources */,
 				CB643D471F499B4B0017E543 /* BestTimetoBuyandSellStockIII.swift in Sources */,
