@@ -40,6 +40,8 @@
 		CBDF30591F66E2D7000C328C /* MoveZerosTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDF30581F66E2D7000C328C /* MoveZerosTest.swift */; };
 		CBDF305B1F66E5CA000C328C /* ClimbingStairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDF305A1F66E5CA000C328C /* ClimbingStairs.swift */; };
 		CBDF305D1F66E62C000C328C /* ClimbingStairsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDF305C1F66E62C000C328C /* ClimbingStairsTest.swift */; };
+		CBDF305F1F66EA32000C328C /* SearchinRotatedSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDF305E1F66EA32000C328C /* SearchinRotatedSortedArray.swift */; };
+		CBDF30611F67B481000C328C /* SearchinRotatedSortedArrayTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDF30601F67B481000C328C /* SearchinRotatedSortedArrayTest.swift */; };
 		CBE3BEFD1EE94F6D0040565B /* HappyNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE3BEFC1EE94F6D0040565B /* HappyNumber.swift */; };
 /* End PBXBuildFile section */
 
@@ -79,6 +81,8 @@
 		CBDF30581F66E2D7000C328C /* MoveZerosTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoveZerosTest.swift; sourceTree = "<group>"; };
 		CBDF305A1F66E5CA000C328C /* ClimbingStairs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClimbingStairs.swift; sourceTree = "<group>"; };
 		CBDF305C1F66E62C000C328C /* ClimbingStairsTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClimbingStairsTest.swift; sourceTree = "<group>"; };
+		CBDF305E1F66EA32000C328C /* SearchinRotatedSortedArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchinRotatedSortedArray.swift; sourceTree = "<group>"; };
+		CBDF30601F67B481000C328C /* SearchinRotatedSortedArrayTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchinRotatedSortedArrayTest.swift; sourceTree = "<group>"; };
 		CBE3BEFC1EE94F6D0040565B /* HappyNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HappyNumber.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -130,6 +134,7 @@
 				CBDF30521F654B19000C328C /* UglyNumberII.swift */,
 				CBDF30561F66E0E9000C328C /* MoveZeros.swift */,
 				CBDF305A1F66E5CA000C328C /* ClimbingStairs.swift */,
+				CBDF305E1F66EA32000C328C /* SearchinRotatedSortedArray.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -154,6 +159,7 @@
 				CBDF30541F66DA78000C328C /* UglyNumberIITest.swift */,
 				CBDF30581F66E2D7000C328C /* MoveZerosTest.swift */,
 				CBDF305C1F66E62C000C328C /* ClimbingStairsTest.swift */,
+				CBDF30601F67B481000C328C /* SearchinRotatedSortedArrayTest.swift */,
 				CB6053631ED54C3A0068B464 /* Info.plist */,
 			);
 			path = LeetCodeTests;
@@ -243,8 +249,10 @@
 				CB1852241EEA34A0001595B8 /* HappyNumberTest.swift in Sources */,
 				CBE3BEFD1EE94F6D0040565B /* HappyNumber.swift in Sources */,
 				CB60536A1ED54D3D0068B464 /* MissingNumberTest.swift in Sources */,
+				CBDF30611F67B481000C328C /* SearchinRotatedSortedArrayTest.swift in Sources */,
 				CB436CDF1EE6EEDD003FA289 /* FindTheDuplicateNumberTest.swift in Sources */,
 				CB643D451F4986AC0017E543 /* SprialMatrixIITest.swift in Sources */,
+				CBDF305F1F66EA32000C328C /* SearchinRotatedSortedArray.swift in Sources */,
 				CBDF305D1F66E62C000C328C /* ClimbingStairsTest.swift in Sources */,
 				CBDF30431F650B45000C328C /* MergeSortedArrayTest.swift in Sources */,
 				CB5AEF3D1F02529C0081C628 /* SpiralMatrixII.swift in Sources */,
