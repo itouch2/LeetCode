@@ -33,6 +33,10 @@
 		CBC023851EF615A000188AED /* IntegertoRoman.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC023841EF615A000188AED /* IntegertoRoman.swift */; };
 		CBC023871EF62CAC00188AED /* IntegerToRomanTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC023861EF62CAC00188AED /* IntegerToRomanTest.swift */; };
 		CBC023891EF62FD800188AED /* SpiralMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC023881EF62FD800188AED /* SpiralMatrix.swift */; };
+		CBCD7EE81F698C0400016D61 /* PowerofFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCD7EE71F698C0400016D61 /* PowerofFour.swift */; };
+		CBCD7EEA1F698C5600016D61 /* PowerofFourTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCD7EE91F698C5600016D61 /* PowerofFourTest.swift */; };
+		CBCD7EEC1F698F3400016D61 /* FindtheDifference.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCD7EEB1F698F3400016D61 /* FindtheDifference.swift */; };
+		CBCD7EEE1F69914000016D61 /* FindtheDifferenceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCD7EED1F69914000016D61 /* FindtheDifferenceTest.swift */; };
 		CBDF30411F650787000C328C /* MergeSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDF30401F650787000C328C /* MergeSortedArray.swift */; };
 		CBDF30431F650B45000C328C /* MergeSortedArrayTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDF30421F650B45000C328C /* MergeSortedArrayTest.swift */; };
 		CBDF30451F650FBD000C328C /* SameTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDF30441F650FBD000C328C /* SameTree.swift */; };
@@ -83,6 +87,10 @@
 		CBC023841EF615A000188AED /* IntegertoRoman.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntegertoRoman.swift; sourceTree = "<group>"; };
 		CBC023861EF62CAC00188AED /* IntegerToRomanTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntegerToRomanTest.swift; sourceTree = "<group>"; };
 		CBC023881EF62FD800188AED /* SpiralMatrix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpiralMatrix.swift; sourceTree = "<group>"; };
+		CBCD7EE71F698C0400016D61 /* PowerofFour.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PowerofFour.swift; sourceTree = "<group>"; };
+		CBCD7EE91F698C5600016D61 /* PowerofFourTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PowerofFourTest.swift; sourceTree = "<group>"; };
+		CBCD7EEB1F698F3400016D61 /* FindtheDifference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindtheDifference.swift; sourceTree = "<group>"; };
+		CBCD7EED1F69914000016D61 /* FindtheDifferenceTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindtheDifferenceTest.swift; sourceTree = "<group>"; };
 		CBDF30401F650787000C328C /* MergeSortedArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MergeSortedArray.swift; sourceTree = "<group>"; };
 		CBDF30421F650B45000C328C /* MergeSortedArrayTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MergeSortedArrayTest.swift; sourceTree = "<group>"; };
 		CBDF30441F650FBD000C328C /* SameTree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SameTree.swift; sourceTree = "<group>"; };
@@ -157,6 +165,8 @@
 				CB9E7EC71F681F150040AEFA /* RemoveLinkedListElements.swift */,
 				CB9E7ECD1F68374A0040AEFA /* ValidAnagram.swift */,
 				CB9E7ED11F683D590040AEFA /* BulbSwitcher.swift */,
+				CBCD7EE71F698C0400016D61 /* PowerofFour.swift */,
+				CBCD7EEB1F698F3400016D61 /* FindtheDifference.swift */,
 				CB9E7EC91F681F6F0040AEFA /* ListNode.swift */,
 			);
 			path = LeetCode;
@@ -187,6 +197,8 @@
 				CB9E7ECB1F68324A0040AEFA /* RemoveLinkedListElementsTest.swift */,
 				CB9E7ECF1F6839A60040AEFA /* ValidAnagramTest.swift */,
 				CB9E7ED31F68FC5F0040AEFA /* BulbSwitcherTest.swift */,
+				CBCD7EE91F698C5600016D61 /* PowerofFourTest.swift */,
+				CBCD7EED1F69914000016D61 /* FindtheDifferenceTest.swift */,
 				CB6053631ED54C3A0068B464 /* Info.plist */,
 			);
 			path = LeetCodeTests;
@@ -261,6 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBCD7EEA1F698C5600016D61 /* PowerofFourTest.swift in Sources */,
 				CB6053861ED689350068B464 /* FindTheDuplicateNumber.swift in Sources */,
 				CB9E7ED41F68FC5F0040AEFA /* BulbSwitcherTest.swift in Sources */,
 				CBDF30511F653BF2000C328C /* UglyNumberTest.swift in Sources */,
@@ -288,8 +301,11 @@
 				CB436CDF1EE6EEDD003FA289 /* FindTheDuplicateNumberTest.swift in Sources */,
 				CB643D451F4986AC0017E543 /* SprialMatrixIITest.swift in Sources */,
 				CBDF305F1F66EA32000C328C /* SearchinRotatedSortedArray.swift in Sources */,
+				CBCD7EEE1F69914000016D61 /* FindtheDifferenceTest.swift in Sources */,
 				CBDF305D1F66E62C000C328C /* ClimbingStairsTest.swift in Sources */,
+				CBCD7EE81F698C0400016D61 /* PowerofFour.swift in Sources */,
 				CBDF30431F650B45000C328C /* MergeSortedArrayTest.swift in Sources */,
+				CBCD7EEC1F698F3400016D61 /* FindtheDifference.swift in Sources */,
 				CB5AEF3D1F02529C0081C628 /* SpiralMatrixII.swift in Sources */,
 				CBDF30531F654B19000C328C /* UglyNumberII.swift in Sources */,
 				CB5AEF3B1F0203AB0081C628 /* SpiralMatrixTest.swift in Sources */,
