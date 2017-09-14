@@ -37,6 +37,8 @@
 		CBCD7EEA1F698C5600016D61 /* PowerofFourTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCD7EE91F698C5600016D61 /* PowerofFourTest.swift */; };
 		CBCD7EEC1F698F3400016D61 /* FindtheDifference.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCD7EEB1F698F3400016D61 /* FindtheDifference.swift */; };
 		CBCD7EEE1F69914000016D61 /* FindtheDifferenceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCD7EED1F69914000016D61 /* FindtheDifferenceTest.swift */; };
+		CBCD7EF21F699ADF00016D61 /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCD7EF11F699ADF00016D61 /* TwoSum.swift */; };
+		CBCD7EF61F6A44CE00016D61 /* TwoSumTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCD7EF51F6A44CE00016D61 /* TwoSumTest.swift */; };
 		CBDF30411F650787000C328C /* MergeSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDF30401F650787000C328C /* MergeSortedArray.swift */; };
 		CBDF30431F650B45000C328C /* MergeSortedArrayTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDF30421F650B45000C328C /* MergeSortedArrayTest.swift */; };
 		CBDF30451F650FBD000C328C /* SameTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDF30441F650FBD000C328C /* SameTree.swift */; };
@@ -91,6 +93,8 @@
 		CBCD7EE91F698C5600016D61 /* PowerofFourTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PowerofFourTest.swift; sourceTree = "<group>"; };
 		CBCD7EEB1F698F3400016D61 /* FindtheDifference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindtheDifference.swift; sourceTree = "<group>"; };
 		CBCD7EED1F69914000016D61 /* FindtheDifferenceTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindtheDifferenceTest.swift; sourceTree = "<group>"; };
+		CBCD7EF11F699ADF00016D61 /* TwoSum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
+		CBCD7EF51F6A44CE00016D61 /* TwoSumTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoSumTest.swift; sourceTree = "<group>"; };
 		CBDF30401F650787000C328C /* MergeSortedArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MergeSortedArray.swift; sourceTree = "<group>"; };
 		CBDF30421F650B45000C328C /* MergeSortedArrayTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MergeSortedArrayTest.swift; sourceTree = "<group>"; };
 		CBDF30441F650FBD000C328C /* SameTree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SameTree.swift; sourceTree = "<group>"; };
@@ -167,6 +171,7 @@
 				CB9E7ED11F683D590040AEFA /* BulbSwitcher.swift */,
 				CBCD7EE71F698C0400016D61 /* PowerofFour.swift */,
 				CBCD7EEB1F698F3400016D61 /* FindtheDifference.swift */,
+				CBCD7EF11F699ADF00016D61 /* TwoSum.swift */,
 				CB9E7EC91F681F6F0040AEFA /* ListNode.swift */,
 			);
 			path = LeetCode;
@@ -199,6 +204,7 @@
 				CB9E7ED31F68FC5F0040AEFA /* BulbSwitcherTest.swift */,
 				CBCD7EE91F698C5600016D61 /* PowerofFourTest.swift */,
 				CBCD7EED1F69914000016D61 /* FindtheDifferenceTest.swift */,
+				CBCD7EF51F6A44CE00016D61 /* TwoSumTest.swift */,
 				CB6053631ED54C3A0068B464 /* Info.plist */,
 			);
 			path = LeetCodeTests;
@@ -284,6 +290,7 @@
 				CB643D4F1F49B1280017E543 /* BestTimetoBuyandSellStockII.swift in Sources */,
 				CBDF30631F67B845000C328C /* PalindromeLinkedList.swift in Sources */,
 				CBDF305B1F66E5CA000C328C /* ClimbingStairs.swift in Sources */,
+				CBCD7EF61F6A44CE00016D61 /* TwoSumTest.swift in Sources */,
 				CBC023891EF62FD800188AED /* SpiralMatrix.swift in Sources */,
 				CB643D491F499E9F0017E543 /* BestTimetoBuyandSellStockIIITest.swift in Sources */,
 				CB9E7EC81F681F150040AEFA /* RemoveLinkedListElements.swift in Sources */,
@@ -293,6 +300,7 @@
 				CB9E7ED21F683D590040AEFA /* BulbSwitcher.swift in Sources */,
 				CBDF30551F66DA78000C328C /* UglyNumberIITest.swift in Sources */,
 				CBDF30451F650FBD000C328C /* SameTree.swift in Sources */,
+				CBCD7EF21F699ADF00016D61 /* TwoSum.swift in Sources */,
 				CB1852241EEA34A0001595B8 /* HappyNumberTest.swift in Sources */,
 				CB9E7ED01F6839A60040AEFA /* ValidAnagramTest.swift in Sources */,
 				CBE3BEFD1EE94F6D0040565B /* HappyNumber.swift in Sources */,
