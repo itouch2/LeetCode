@@ -18,6 +18,8 @@
 		CB6053811ED5573D0068B464 /* H-Index.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6053801ED5573D0068B464 /* H-Index.swift */; };
 		CB6053831ED58DD30068B464 /* H-IndexTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6053821ED58DD30068B464 /* H-IndexTest.swift */; };
 		CB6053861ED689350068B464 /* FindTheDuplicateNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6053851ED689350068B464 /* FindTheDuplicateNumber.swift */; };
+		CB61759B1F761A4F00AC166E /* InsertionSortList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB61759A1F761A4F00AC166E /* InsertionSortList.swift */; };
+		CB61759F1F76231400AC166E /* LeetCodeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB61759E1F76231400AC166E /* LeetCodeTest.swift */; };
 		CB643D451F4986AC0017E543 /* SprialMatrixIITest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB643D441F4986AC0017E543 /* SprialMatrixIITest.swift */; };
 		CB643D471F499B4B0017E543 /* BestTimetoBuyandSellStockIII.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB643D461F499B4B0017E543 /* BestTimetoBuyandSellStockIII.swift */; };
 		CB643D491F499E9F0017E543 /* BestTimetoBuyandSellStockIIITest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB643D481F499E9F0017E543 /* BestTimetoBuyandSellStockIIITest.swift */; };
@@ -78,6 +80,8 @@
 		CB6053801ED5573D0068B464 /* H-Index.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "H-Index.swift"; sourceTree = "<group>"; };
 		CB6053821ED58DD30068B464 /* H-IndexTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "H-IndexTest.swift"; sourceTree = "<group>"; };
 		CB6053851ED689350068B464 /* FindTheDuplicateNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindTheDuplicateNumber.swift; sourceTree = "<group>"; };
+		CB61759A1F761A4F00AC166E /* InsertionSortList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsertionSortList.swift; sourceTree = "<group>"; };
+		CB61759E1F76231400AC166E /* LeetCodeTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeetCodeTest.swift; sourceTree = "<group>"; };
 		CB643D441F4986AC0017E543 /* SprialMatrixIITest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SprialMatrixIITest.swift; sourceTree = "<group>"; };
 		CB643D461F499B4B0017E543 /* BestTimetoBuyandSellStockIII.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BestTimetoBuyandSellStockIII.swift; sourceTree = "<group>"; };
 		CB643D481F499E9F0017E543 /* BestTimetoBuyandSellStockIIITest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BestTimetoBuyandSellStockIIITest.swift; sourceTree = "<group>"; };
@@ -182,6 +186,7 @@
 				CBCD7EF11F699ADF00016D61 /* TwoSum.swift */,
 				CBCD7EF71F6A462B00016D61 /* ThreeSum.swift */,
 				CB5BCC0A1F6AB64600142DD3 /* ReverseInteger.swift */,
+				CB61759A1F761A4F00AC166E /* InsertionSortList.swift */,
 				CB9E7EC91F681F6F0040AEFA /* ListNode.swift */,
 			);
 			path = LeetCode;
@@ -217,6 +222,7 @@
 				CBCD7EF51F6A44CE00016D61 /* TwoSumTest.swift */,
 				CBCD7EF91F6A4BDB00016D61 /* ThreeSumTest.swift */,
 				CB5BCC0C1F6AC35900142DD3 /* ReverseIntegerTest.swift */,
+				CB61759E1F76231400AC166E /* LeetCodeTest.swift */,
 				CB6053631ED54C3A0068B464 /* Info.plist */,
 			);
 			path = LeetCodeTests;
@@ -316,6 +322,7 @@
 				CB9E7ED21F683D590040AEFA /* BulbSwitcher.swift in Sources */,
 				CBDF30551F66DA78000C328C /* UglyNumberIITest.swift in Sources */,
 				CBDF30451F650FBD000C328C /* SameTree.swift in Sources */,
+				CB61759B1F761A4F00AC166E /* InsertionSortList.swift in Sources */,
 				CBCD7EF21F699ADF00016D61 /* TwoSum.swift in Sources */,
 				CB1852241EEA34A0001595B8 /* HappyNumberTest.swift in Sources */,
 				CB9E7ED01F6839A60040AEFA /* ValidAnagramTest.swift in Sources */,
@@ -328,6 +335,7 @@
 				CBCD7EEE1F69914000016D61 /* FindtheDifferenceTest.swift in Sources */,
 				CBDF305D1F66E62C000C328C /* ClimbingStairsTest.swift in Sources */,
 				CBCD7EE81F698C0400016D61 /* PowerofFour.swift in Sources */,
+				CB61759F1F76231400AC166E /* LeetCodeTest.swift in Sources */,
 				CBDF30431F650B45000C328C /* MergeSortedArrayTest.swift in Sources */,
 				CBCD7EEC1F698F3400016D61 /* FindtheDifference.swift in Sources */,
 				CB5AEF3D1F02529C0081C628 /* SpiralMatrixII.swift in Sources */,
