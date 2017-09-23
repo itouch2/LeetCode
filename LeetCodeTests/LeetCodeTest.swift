@@ -9,6 +9,20 @@
 import XCTest
 
 class LeetCodeTest: XCTestCase {
+    
+    func testHasPathSum() {
+        let pathSum = PathSum()
+        let node1 = TreeNode(3)
+        let node2 = TreeNode(5)
+        let node3 = TreeNode(8)
+        node1.left = node2
+        node2.right = node3
+        XCTAssertTrue(pathSum.hasPathSum(node1, 16))
+        XCTAssertFalse(pathSum.hasPathSum(node1, 8))
+        XCTAssertTrue(pathSum.hasPathSum(node2, 13))
+        XCTAssertFalse(pathSum.hasPathSum(node3, 2))
+    }
+    
     func testInsertionSortList() {
         let insertion = InsertionSortList()
         let node1 = ListNode(3)
