@@ -10,6 +10,17 @@ import XCTest
 
 class LeetCodeTest: XCTestCase {
     
+    func testPathSum() {
+        let pathSum = PathSum2()
+        let node1 = TreeNode(3)
+        let node2 = TreeNode(5)
+        let node3 = TreeNode(8)
+        node1.left = node2
+        node2.right = node3
+        
+        print(pathSum.pathSum(node1, 16))
+    }
+    
     func testHasPathSum() {
         let pathSum = PathSum()
         let node1 = TreeNode(3)
